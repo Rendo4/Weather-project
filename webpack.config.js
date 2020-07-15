@@ -21,7 +21,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new Dotenv(),
     new HtmlWebpackPlugin({
-      title: 'Ping Pong',
+      title: 'weather',
       template: './src/index.html',
       inject: 'body'
     })
